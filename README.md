@@ -84,21 +84,42 @@ house-price-prediction/
 
 ## 🚀 How to Run
 
-1. Clone the repository
+## 🚀 How to Run
 
-```
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/yourusername/house-price-prediction.git
+cd house-price-prediction
 ```
 
-2. Install dependencies
+### 2. Install the required dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-3. Open the notebook and run all cells.
+### 3. Download the dataset
 
----
+Download the **House Prices: Advanced Regression Techniques** dataset from the Kaggle competition page.
+
+Place the files in the following structure:
+
+```
+house-price-prediction/
+│
+├── data/
+│   ├── train.csv
+│   └── test.csv
+```
+
+### 4. Run the notebook
+
+Open `House_Price_Prediction.ipynb` in Jupyter Notebook or VS Code and run all cells sequentially.
+
+### 5. Generate predictions
+
+The notebook will create a `submission.csv` file containing the predicted house prices for the Kaggle test dataset.
 
 ## 📌 Future Improvements
 
